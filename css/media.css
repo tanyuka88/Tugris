@@ -29,6 +29,18 @@
     .info-ab-review{
         width: 100%;
     }
+    .user-review{
+        width:100%;
+    }
+    .user-page{
+        width:75% ;
+    }
+    .user-page>div:nth-child(1){
+        width: 100%;
+    }
+    .user-foto{
+        top:100px;
+    }
 }
 @media (max-width: 1162px) {
     .menu{
@@ -59,6 +71,12 @@
     .product-this-manufacturer>div{
         padding: 15px;
     }
+    .user-page{
+        width: 70%;
+    }
+    .user-foto{
+        width: 35%;
+    }
 }
 @media (min-width: 950px) {
     .choose-info>div div{
@@ -77,6 +95,11 @@
         width: 50%;
         text-align: center;
     }
+    .enter1{
+        left:20px;
+        top:23px;
+    }
+
 }
 @media (max-width: 850px) {
     .popular{
@@ -100,6 +123,9 @@
     #milk-h2{
         float: none;
     }
+    .user-foto{
+        display: none;
+    }
 }
 @media (max-width: 850px) {
     .popular{
@@ -110,7 +136,13 @@
         width: 100%;
     }
     .desc-product{width: 100%;}
-
+    .user-page{width: 65%;}
+    .userpage-prod{
+        width: 200px !important;
+    }
+    .user-review{
+        margin-top: 20px;
+    }
 }
 @media (max-width: 1390px) and (min-width: 651px){
     .logo{
@@ -135,7 +167,11 @@
         margin: 6px 0 0 1px;
     }
 }
-
+@media (max-width: 731px) {
+    .user-page{
+        width: 60%;
+    }
+}
 @media (max-width: 650px) {
     .middle{
         width: 95%;
@@ -202,5 +238,12 @@
     }
     .info-about-product>div{
         margin: 0;
+    }
+    .user-page{width: 100%;}
+    .user-page>div:nth-child(1)>div{
+    padding: 0;
+    }
+    .enter1{
+        left: 0;
     }
 }
