@@ -1,0 +1,4 @@
+[Tue Oct 27 2015 16:47:03 GMT+0500 (Западная Азия (зима))] Layer "1920x1200_860464_[www.ArtFile.ru] copy": Expected end of input but "]" found.
+[Tue Oct 27 2015 16:47:03 GMT+0500 (Западная Азия (зима))] Layer "1920x1200_932430_[www.ArtFile.ru] copy": Expected end of input but "]" found.
+[Tue Oct 27 2015 16:47:02 GMT+0500 (Западная Азия (зима))] Layer "О Tugris.uz  Информация о проекте Стать партнером Реклама на са": Expected end of input but "\u0418" found.
+[Tue Oct 27 2015 16:47:02 GMT+0500 (Западная Азия (зима))] Layer "Tugris.uz в социальных сетях  Facebook Одноклассники Подписка н": Expected end of input but "\u0432" found.

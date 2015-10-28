@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Tugris</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css" >
+    <link href="css/media.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript" src="js/js.js"></script>
+</head>
+  
+<body>
+<header>
+    <div class="middle">
+        <div class="logo"><img src="images/logo.png"></div>
+        <p>Первый независимый сайт отзывов Узбекистана</p>
+        <div class="langs">
+           <a href="#"><div class="langs-circle"><p>РУ</p></div></a>
+           <a href="#"><div class="langs-circle"><p>УЗ</p></div></a>
+        </div>
+        <div class="autorisation">
+        <form  action="#" autocomplete="on">
+            <input name="name" required="required" type="text"/><br>
+            <input name="pass" required="required" type="password"  />
+        </form>
+        <button>Войти</button><a href="#">Как войти?</a>
+        </div>
+        <div class="web">
+            <button>Добавить товар или услугу</button><br>
+            <div class="web-icons"><a href="#"><i class="fa fa-facebook"></i></a></div>
+            <div class="web-icons"><a href="#"><i class="fa fa-odnoklassniki"></i></a></div>
+            <div class="web-icons"><a href="#"><i class="fa fa-envelope-o"></i></a></div>
+            <div class="web-icons"><a href="#"><i class="fa fa-share-alt"></i></a></div>
+        </div>
+        <div class="clear"></div>
+        <div class="top-menu">
+            <div class="search">
+                <form  action="#" autocomplete="on">
+                    <input id="usernamesignup" name="usernamesignup" type="text"/><i class="fa fa-search"></i>
+                </form>
+            </div>
+            <a href="#" id="touch-menu"><i class="fa fa-bars"></i></a>
+            <ul class="menu">
+                <li><a href="#">О пректе</a></li>
+                <li><a href="#">Каталог товаров и услуг</a></li>
+                <li><a href="#">Производители</a></li>
+                <li><a href="#">Партнеры</a></li>
+                <li><a href="#">Акции и конкурсы</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="wrapper">
+    <div class="middle">
+        <aside>
+            <div id="menu_pop">
+                <ul id="accordion">
+                    <li class="null"><div>Каталог товаров и услуг<br></div></li>
+                    <li><div>Мясные продукты<i class="fa fa-caret-right"></i><br></div>
+                        <ul>
+                            <li><a href="#">Ссылка 1</a></li>
+                            <li><a href="#">Ссылка 2</a></li>
+                        </ul>
+                    </li>
+                    <li><div>Молочные продукты<i class="fa fa-caret-right"></i><br></div>
+                        <ul>
+                            <li><a href="#">Ссылка 1</a></li>
+                            <li><a href="#">Ссылка 2</a></li>
+                            <li><a href="#">Ссылка 3</a></li>
+                            <li><a href="#">Ссылка 4</a></li>
+                        </ul>
+                    </li>
+                    <li><div>Хлебобулочные изделия<i class="fa fa-caret-right"></i><br></div>
+                        <ul>
+                            <li><a href="#">Ссылка 1</a></li>
+                            <li><a href="#">Ссылка 2</a></li>
+                            <li><a href="#">Ссылка 3</a></li>
+                        </ul>
+                    </li>
+                    <li><div>Маринады<i class="fa fa-caret-right"></i><br></div>
+                        <ul>
+                            <li><a href="#">Ссылка 1</a></li>
+                            <li><a href="#">Ссылка 2</a></li>
+                            <li><a href="#">Ссылка 3</a></li>
+                        </ul>
+                    </li>
+                    <li><div>Консервы<i class="fa fa-caret-right"></i><br></div>
+                        <ul>
+                            <li><a href="#">Ссылка 1</a></li>
+                            <li><a href="#">Ссылка 2</a></li>
+                        </ul>
+                    </li>
+                    <li><div>Полуфабрикаты<i class="fa fa-caret-right"></i><br></div>
+                        <ul>
+                            <li><a href="#">Ссылка 1</a></li>
+                            <li><a href="#">Ссылка 2</a></li>
+                            <li><a href="#">Ссылка 3</a></li>
+                            <li><a href="#">Ссылка 4</a></li>
+                        </ul>
+                    </li>
+                    <li><div>Бытовая техника<i class="fa fa-caret-right"></i><br></div>
+                        <ul>
+                            <li><a href="#">Ссылка 1</a></li>
+                            <li><a href="#">Ссылка 2</a></li>
+                            <li><a href="#">Ссылка 3</a></li>
+                        </ul>
+                    </li>
+                    <li><div>Мобильные телефоны<i class="fa fa-caret-right"></i><br></div>
+                        <ul>
+                            <li><a href="#">Ссылка 1</a></li>
+                            <li><a href="#">Ссылка 2</a></li>
+                            <li><a href="#">Ссылка 3</a></li>
+                        </ul>
+                    </li>
+                    <li><div>Одежда<i class="fa fa-caret-right"></i><br></div>
+                        <ul>
+                            <li><a href="#">Детская</a></li>
+                            <li><a href="#">Женская</a></li>
+                        </ul>
+                    </li>
+                    <li><div>Обувь<i class="fa fa-caret-right"></i><br></div>
+                        <ul>
+                            <li><a href="#">Ссылка 1</a></li>
+                            <li><a href="#">Ссылка 2</a></li>
+                            <li><a href="#">Ссылка 3</a></li>
+                            <li><a href="#">Ссылка 4</a></li>
+                        </ul>
+                    </li>
+                    <li><div>Косметика<i class="fa fa-caret-right"></i><br></div>
+                        <ul>
+                            <li><a href="#">Ссылка 1</a></li>
+                            <li><a href="#">Ссылка 2</a></li>
+                            <li><a href="#">Ссылка 3</a></li>
+                        </ul>
+                    </li>
+                    <li><div>Другое<i class="fa fa-caret-right"></i><br></div>
+                        <ul>
+                            <li><a href="#">Ссылка 1</a></li>
+                            <li><a href="#">Ссылка 2</a></li>
+                            <li><a href="#">Ссылка 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="advetisement">
+                <img src="images/adv1.png" /><br><br>
+                <img src="images/adv2.png" />
+            </div>
+        </aside>
+        <div class="popular">
+            <div>
+                <ul class="hor-menu">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог товаров</a></li>
+                    <li><a href="#">Молочные продукты</a></li>
+                    <li><a href="#">Йогур Pure Milky 15 мл.</a></li>
+                </ul>
+                <a class="enter" href="#">Зарегистрируйтесь или войдите, чтобы оставить отзыв</a>
+                <div class="clear"></div>
+                <div class="halfblock"><div class="info-about-product">
+                    <h2>Информация о продукте</h2>
+                    <div>
+                        <div class="image-product">
+                            <img src="images/1.png" />
+                            <div class="small"><img src="images/1.png" /></div>
+                            <div class="small"><img src="images/1.png" /></div>
+                            <div class="recommend">Рекомендуют:<br><i>100%</i></div>
+                        </div>
+                        <div class="desc-product">
+                            <h2>Йогурт Pure Milky 15 мл.</h2>
+                            <a href="#">25 отзывов</a><br>
+                            <a href="#">Производитель: Pure Milky</a>
+                            <div class="star-rating big-stars">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            <div class="stars">
+                                <p>Вкус</p>
+                                <div class="star-rating small-stars">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="stars">
+                                <p>Упаковка</p>
+                                <div class="star-rating small-stars">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="stars">
+                                <p>Цена</p>
+                                <div class="star-rating small-stars">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="stars">
+                                <p>Еще что-то</p>
+                                <div class="star-rating small-stars">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="stars">
+                                <p>И еще</p>
+                                <div class="star-rating small-stars">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            </div>
+                       </div>
+                        <div class="clear"></div>
+                        <h3>Описание производителя:</h3>
+                        <p>Lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehen</p>
+                        <div class="border"></div>
+                        <h3>Описание производителя:</h3>
+                        <p>Lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehen</p>
+                        <div class="border"></div>
+                        <h3>Описание производителя:</h3>
+                        <p>Lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehen</p>
+                        <div class="border"></div>
+                        <div class="web-icons-production">
+                            <a href="#"><i class="webicons fa fa-plus-square"></i></a>
+                            <a href="#"><i class="webicons fa fa-facebook-square"></i></a>
+                            <a href="#"><i class="webicons fa fa-twitter-square"></i></a>
+                            <a href="#"><i class="webicons fa fa-google-plus-square"></i></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div></div>
+
+                <div class="halfblock">
+                    <div class="reviews-about-product">
+                    <h2>Отзывы о продукте</h2>
+                    <a href="#">РУ</a> <a href="#">УЗ</a>
+                    <div class="clear"></div>
+                    <div>
+                        <div class="person-review">
+                            <h2>Василий Преображенский</h2>
+                            <p>Ташкент</p>
+                            <p>20.08.2015</p>
+                            <p>автор 15 отзывов</p>
+                            <h3>Достоинства:</h3>
+                            <p>lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.</p>
+                            <h3>Недостатки:</h3>
+                            <p>lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.</p>
+                            <h3>Комментарий::</h3>
+                            <p>lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.</p>
+                            <div class="cool">
+                                <button>Рекомендует!</button>
+                                <a href="#" class="no"><i class="fa fa-thumbs-o-down"></i> 0</a>
+                                <a href="#" class="yes"><i class="fa fa-thumbs-o-up"></i> 1</a>
+                            </div>
+                            <a href="#">Свернуть</a>
+                        </div>
+                        <div class="person-review">
+                            <h2>Александр Вознесенский</h2>
+                            <p>Ташкент</p>
+                            <p>20.08.2015</p>
+                            <p>автор 85 отзывов</p>
+                            <h3>Достоинства:</h3>
+                            <p>lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.</p>
+                            <a href="#">Развернуть</a>
+                        </div>
+                        <div class="person-review">
+                            <h2>Петр Сидоров</h2>
+                            <p>Ташкент</p>
+                            <p>20.08.2015</p>
+                            <p>автор 85 отзывов</p>
+                            <h3>Достоинства:</h3>
+                            <p>lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+
+                <h2 class="other-product">Другие товары этого производителя</h2>
+                <div class="img-border">
+                    <div>
+                        <a href="#">
+                            <img src="images/1.png">
+                            <div class="star-rating">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            <div class="description">
+                                DVP-SR320
+                                Sony DVP-SR320
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="img-border">
+                    <div>
+                        <a href="#">
+                            <img src="images/2.png">
+                            <div class="star-rating">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            <div class="description">
+                                DVP-SR320
+                                Sony DVP-SR320
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="img-border">
+                    <div>
+                        <a href="#">
+                            <img src="images/1.png">
+                            <div class="star-rating">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            <div class="description">
+                                DVP-SR320
+                                Sony DVP-SR320
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="img-border">
+                    <div>
+                        <a href="#">
+                            <img src="images/2.png">
+                            <div class="star-rating">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            <div class="description">
+                                DVP-SR320
+                                Sony DVP-SR320
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="img-border">
+                    <div>
+                        <a href="#">
+                            <img src="images/1.png">
+                            <div class="star-rating">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            <div class="description">
+                                DVP-SR320
+                                Sony DVP-SR320
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="img-border">
+                    <div>
+                        <a href="#">
+                            <img src="images/2.png">
+                            <div class="star-rating">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            <div class="description">
+                                DVP-SR320
+                                Sony DVP-SR320
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="img-border">
+                    <div>
+                        <a href="#">
+                            <img src="images/1.png">
+                            <div class="star-rating">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            <div class="description">
+                                DVP-SR320
+                                Sony DVP-SR320
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="img-border">
+                    <div>
+                        <a href="#">
+                            <img src="images/2.png">
+                            <div class="star-rating">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            <div class="description">
+                                DVP-SR320
+                                Sony DVP-SR320
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+
+<footer>
+    <div class="middle">
+        <div class="bottom">
+            <div>
+                <h2><a href="#">О TUGRIS.UZ</a></h2>
+                <a href="#">Информация о проекте</a><br>
+                <a href="#">Стать партнером</a><br>
+                <a href="#">Реклама на сайте</a><br>
+            </div>
+        </div>
+        <div class="bottom">
+            <div>
+                <h2><a href="#">Полезные ссылки</a></h2>
+                <a href="#">Часто задаваемые вопросы</a><br>
+                <a href="#">Карта сайта</a><br>
+                <a href="#">Советы и полезная информация</a><br>
+            </div>
+        </div>
+        <div class="bottom">
+            <div>
+                <h2><a href="#">Tugris.uz в социальных сетях</a></h2>
+                <a href="#">Facebook</a><br>
+                <a href="#">Одноклассники</a><br>
+                <a href="#">Подписка на новости</a><br>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</footer>
+</body>
+</html>

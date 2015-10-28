@@ -1,0 +1,11 @@
+[Thu Oct 15 2015 13:57:39 GMT+0500 (Западная Азия (зима))] Layer "Lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit,": Expected end of input but "," found.
+[Thu Oct 15 2015 13:57:39 GMT+0500 (Западная Азия (зима))] Layer "1920x1200_860464_[www.ArtFile.ru] copy": Expected end of input but "]" found.
+[Thu Oct 15 2015 13:57:39 GMT+0500 (Западная Азия (зима))] Layer "1680x1050_458911_[www.ArtFile.ru] copy": Expected end of input but "]" found.
+[Thu Oct 15 2015 13:57:39 GMT+0500 (Западная Азия (зима))] Layer "1920x1200_932430_[www.ArtFile.ru] copy": Expected end of input but "]" found.
+[Thu Oct 15 2015 13:57:39 GMT+0500 (Западная Азия (зима))] Layer "1280x960_396874_[www.ArtFile.ru] copy": Expected end of input but "]" found.
+[Thu Oct 15 2015 13:57:39 GMT+0500 (Западная Азия (зима))] Layer "1920x1200_867175_[www.ArtFile.ru] copy": Expected end of input but "]" found.
+[Thu Oct 15 2015 13:57:39 GMT+0500 (Западная Азия (зима))] Layer "1440x900_465508_[www.ArtFile.ru] copy": Expected end of input but "]" found.
+[Thu Oct 15 2015 13:57:39 GMT+0500 (Западная Азия (зима))] Layer "1920x1200_940133_[www.ArtFile.ru] copy": Expected end of input but "]" found.
+[Thu Oct 15 2015 13:57:39 GMT+0500 (Западная Азия (зима))] Layer "1920x1200_865241_[www.ArtFile.ru] copy": Expected end of input but "]" found.
+[Thu Oct 15 2015 13:57:39 GMT+0500 (Западная Азия (зима))] Layer "О Tugris.uz  Информация о проекте Стать партнером Реклама на са": Expected end of input but "\u0418" found.
+[Thu Oct 15 2015 13:57:39 GMT+0500 (Западная Азия (зима))] Layer "Tugris.uz в социальных сетях  Facebook Одноклассники Подписка н": Expected end of input but "\u0432" found.

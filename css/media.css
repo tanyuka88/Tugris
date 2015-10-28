@@ -1,108 +1,206 @@
-@media (min-width: 768px) and (max-width: 979px) {
-    .mainWrap{width:768px;}
-    .menu ul {top:37px;}
-    .menu li a{font-size:12px;
-        padding:8px;}
+@media (max-width: 1390px){
+    .small-stars .star-rating__wrap{
+        font-size: 10px;
+    }
 }
-
-@media (max-width: 767px) {
-    header nav{
-        position: relative;
-        padding-top:80px ;
+@media (max-width: 1266px) {
+    .popular{
+        width: 75%;
     }
-
-    .logo img{
-        width: 30%;
-        min-width:100px;
+    .img-border{
+        width: 25%;
     }
+    .enter{float: left;}
+    .halfblock{
+        width: 100%;
+    }
+    .reviews-about-product{
+        margin-left: 0;
+    }
+    .reviews-about-product>h2{
+        margin-top: 10px;
+    }
+    .reviews-about-product a{
+        line-height: 45px;
+    }
+    .my-review{
+        width: 100%;
+    }
+    .info-ab-review{
+        width: 100%;
+    }
+}
+@media (max-width: 1162px) {
     .menu{
-        display:none;
-        position: relative;  }
-
-    .mobile-menu{
-        display:block;
-        width: 30px;
-        height: 30px;
-        z-index: 12;}
-
-    nav{
-        margin:0;
-        background:none;}
-
-    .menu li{
-        display:block;
-        margin:0;
-        width: 100%;
-    }
-
-    .menu li a {
-        background:#ffffff;
-        color:#797979;
-        border-top:1px solid #e0e0e0;
-        border-left:3px solid #ffffff;}
-    .menu ul ul{
-        left: 20px;
-    }
-    .menu li a:hover, .menu li:hover > a{
-        background:#f0f0f0;
-        color:#797979;
-        border-left:3px solid #712746;}
-
-    .menu ul {display:none;
-        position:relative;
-        top:0;
-        left:0;
-        width: 100%;
-    }
-    .telephones{
-        width: 100%;
-        position: relative;
-        float: left;
-        text-align: center;
-        z-index: 12;
-        margin-bottom: 15px;
-    }
-    .telephones p{
-        float: left;
-        font-size: 12px;
-        text-align: left;
-    }
-}
-
-
-@media (max-width: 991px) {
-    .meet-the-team{
-        margin-bottom: 10px;
-    }
-    .left-block{
-        width: 50%;
-        margin-right:25px;
-    }
-    .partner1{
-        float: left;
-        width: 50%;
-    }
-    .partner1  img{
-        width: 90%;
-    }
-    .partner2{
-        float: right;
-        width: 50%;
-    }
-    .partner2 img{
-        width: 90%;
-    }
-    .data{padding-top: 10px;}
-}
-
-@media (max-width: 500px) {
-    .slider{
         display: none;
     }
-    footer p{
+    #touch-menu{
+        display: block;
+        position: absolute;
+        top:3px;
+        left: 5px;
+    }
+    .search{float: none;padding: 5px 0;margin-left: 45px;}
+    .menu{
+        position: relative;
+        background-color: #0077b5;
+    }
+    .menu li{
+        width: 100%;
+    }
+}
+@media (max-width: 1017px) {
+    .popular{
+        width: 70%;
+    }
+    .img-border{
+        width: 50%;
+    }
+    .product-this-manufacturer>div{
+        padding: 15px;
+    }
+}
+@media (min-width: 950px) {
+    .choose-info>div div{
+        width: 24.9%;
+    }
+}
+@media (max-width: 949px) {
+    .choose-info>div div{
+        width: 49.8%;
+        margin-top: 10px;
+    }
+    .news>div{
+        width: 50%;
+    }
+    footer .bottom{
+        width: 50%;
+        text-align: center;
+    }
+}
+@media (max-width: 850px) {
+    .popular{
+        width: 65%;
+    }
+    .img-border{
+        width: 35%;
+    }
+    .sorting{
+        float: left;
+    }
+    .sorting p{
+        margin-left: 0;
+    }
+    .image-product{
+        width: 100%;
+    }
+    .stars1{
+        width: 100%;
+    }
+    #milk-h2{
+        float: none;
+    }
+}
+@media (max-width: 850px) {
+    .popular{
+        width: 60%;
+        text-align: center;
+    }
+    .img-border{
+        width: 100%;
+    }
+    .desc-product{width: 100%;}
+
+}
+@media (max-width: 1390px) and (min-width: 651px){
+    .logo{
+        width: 100%;
+        margin: 15px 0;
+        text-align: center;
+    }
+    header p{
+        width: 100%;
+        margin-top: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .web{
+        float: left;
+        padding: 10px 5px;
+    }
+    .autorisation{
+        float: left;
+    }
+    .langs-circle p{
+        margin: 6px 0 0 1px;
+    }
+}
+
+@media (max-width: 650px) {
+    .middle{
+        width: 95%;
+    }
+    .choose-info>div div{
+        padding: 0 10px;
+    }
+    .news>div{
+        width: 100%;
+    }
+    footer .bottom{
+        width: 100%;
+        text-align: center;
+    }
+    aside{
+        width: 100%;
+    }
+    .popular{
+        width: 100%;
+    }
+    .img-border{
+        width: 100%;
+    }
+    .star-rating__wrap{
         font-size: 12px;
     }
-    .left-block{
+    .choose-info>div div{
         width: 100%;
+        margin-top: 10px;
+    }
+    .img-border a img{
+        max-width: 200px;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    header p{
+        margin-top: 0;
+        text-align: center;
+        float: none;
+    }
+    .web{float: none;}
+    .langs-circle p{
+        margin: 6px 0 0 0px;
+    }
+    .langs{width: 100%;margin-bottom: 10px;}
+    .autorisation{
+        width: 170px;
+        margin: 0 auto;
+        float: none;
+    }
+    .advetisement{
+        display: none;
+    }
+    .bottom>div{
+        padding: 0;
+    }
+    .inner a>div{
+        padding: 0;
+    }
+    .popular>div{
+        padding: 0;
+    }
+    .info-about-product>div{
+        margin: 0;
     }
 }
