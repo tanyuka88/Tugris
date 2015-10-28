@@ -99,7 +99,9 @@
         left:20px;
         top:23px;
     }
-
+    .choose-info>div div:nth-child(2){
+        border:none;
+    }
 }
 @media (max-width: 850px) {
     .popular{
@@ -176,9 +178,7 @@
     .middle{
         width: 95%;
     }
-    .choose-info>div div{
-        padding: 0 10px;
-    }
+
     .news>div{
         width: 100%;
     }
@@ -199,7 +199,6 @@
         font-size: 12px;
     }
     .choose-info>div div{
-        width: 100%;
         margin-top: 10px;
     }
     .img-border a img{
@@ -245,5 +244,10 @@
     }
     .enter1{
         left: 0;
+    }
+}
+@media (max-width: 400px) {
+    .choose-info>div div{
+        width: 100%;
     }
 }

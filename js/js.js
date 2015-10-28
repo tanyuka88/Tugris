@@ -7,7 +7,6 @@
     });
 
     $("#accordion > li > div").click(function(){
-
         $("#accordion > li > div").css("background-color","white").css("color","black");
         $(".null").css("background-color","#0077b5").css("color","white");
         if(false == $(this).next().is(':visible')) {

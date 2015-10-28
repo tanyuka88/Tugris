@@ -14,12 +14,12 @@ header p{
     font-family: Verdana,serif;
     font-size: 14px;
     color: #0077b5;
-    padding: 0 40px;
+    padding: 0 25px;
     margin-top: 35px;
 }
 .web{
     float: right;
-    padding: 10px 20px;
+    padding: 10px 0px;
     text-align: center;
 }
 .web>div{
@@ -152,6 +152,7 @@ button{
 }
 .choose-info>div div p{
     position: absolute;
+    font-size: 15px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -160,7 +161,7 @@ button{
 }
 .choose-info>div div a img{
     width: 50px;
-    min-width: 40px;
+    min-width: 20px;
 }
 .choose-info>div div:last-child{
     border-right: none;
@@ -225,7 +226,7 @@ aside{
 .popular h2{
     font-family: Verdana,serif;
     font-size: 18px;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 10px 10px;
 }
 .img-border{
     width: 20%;
@@ -252,7 +253,7 @@ aside{
 }
 .star-rating__wrap{
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
 }
 .star-rating__wrap:after{
     content: "";
@@ -291,6 +292,7 @@ aside{
 }
 .news h2{
     font-size: 18px;
+    padding-left: 40px;
 }
 .news>div{
     width: 33.3%;
@@ -310,7 +312,7 @@ aside{
     text-decoration: none;
 }
 .inner a>div{
-    padding: 0 40px 0 0;
+    padding: 0 0 0 40px;
 }
 .inner a >div>img{
     width: 100%;
@@ -525,6 +527,7 @@ option:hover{
     font-family: Verdana,sans-serif;
     font-size: 12px;
     color:black;
+    line-height: 45px;
 }
 .cool a{
     font-size: 20px;
@@ -591,7 +594,8 @@ option:hover{
     border-top: 1px solid #0077b5;
 }
 textarea{
-    width:96%;
+    max-width:96%;
+    min-width: 96%;
 }
 .comments{
     float: left;
